@@ -1,6 +1,6 @@
 # Ali Baba Test
 
-[Demo](https://alixo.ir/demo)
+[Demo](https://countryrest-aliesm-alibaba.netlify.app/)
 
 ## Bonus
 I think I Solve these bonuses challenge:
