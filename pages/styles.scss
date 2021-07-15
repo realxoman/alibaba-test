@@ -67,11 +67,30 @@
     input {
         padding: 1rem 1rem 1rem 4rem;
         width: 100%;
-        border-radius: var(--radius);
+        border-radius: var(--brd-rd);
         border: none;
-        box-shadow: var(--shadow);
+        box-shadow: var(--bx-shdw);
         background-color: var(--elements-bg);
         color: var(--text-color);
     }
 }
 
+.selection{
+    width: 480px;
+    max-width: 100%;
+    border-radius: var(--brd-rd);
+    border: none;
+    box-shadow: var(--bx-shdw);
+    background-color: var(--elements-bg);
+    padding: 1rem 1rem ;
+    color: var(--text-color);
+
+    option::selection{
+        background-color: var(--elements-bg);
+        padding: 1rem 1rem 1rem 4rem;
+        &:hover{
+            
+            background-color: var(--elements-bg);
+        }
+    }
+}

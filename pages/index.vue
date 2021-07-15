@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="d-flex-column">
-      <div :class="$style.searchForm">
+      <div :class="[$style.searchForm,'d-flex']">
         <form @submit.prevent>
         <div :class="$style.searchInput">
           <font-awesome-icon :class="$style.icon" icon="search" />
@@ -13,7 +13,14 @@
             placeholder="Search for a country..."
           />
         </div></form>
+        <select :class="$style.selection" v-on:change="onChange($event)" :selected="selectedReg">
+        <option value="none">Filter by Region</option>
+        <option v-for="region in regions" :key="region" :value="region">{{region}}</option>
+      </select>
+      
       </div>
+      
+    
       <div v-if="countriesList" :class="[$style.row, 'd-flex', 'wrap']">
         <div v-for="country in filtered" :class="$style.cardWrapper">
           <Countries  :country="country" :key="country.name" />
@@ -31,8 +38,7 @@
         filtered: [],
         selectedReg: "",
         search: "",
-        regions: [],
-        loading: true
+        regions: []
       };
     },
     async asyncData({
@@ -45,7 +51,6 @@
     },
     async created() {
     this.countries = await this.res;
-    this.loading = false;
     this.getRegions();
     this.filtered = this.countries;
   },
