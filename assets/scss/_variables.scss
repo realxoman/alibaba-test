@@ -1,0 +1,40 @@
+// I use default css variables because of I wanna use these on other sass files.
+
+// But you can use sass vars with import this file in other files. (note: Use should uncomment sass variables first)
+
+// These vars are collected from style-guide.md
+
+// ----------- Default Variables -----------
+
+:root {
+    // Colors
+    --dark-blue: hsl(209, 23%, 22%);
+    --v_dark_blue_b: hsl(207, 26%, 17%);
+    --v_dark_blue_l: hsl(200, 15%, 8%);
+    --dark-gray: hsl(0, 0%, 52%);
+    --v_light_gray: hsl(0, 0%, 98%);
+    --white-lb: hsl(0, 0%, 100%);
+
+    // Box Style
+    --brd-rd: 5px;
+    --bx-shdw: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+// ----------- SCSS Variables ----------- //
+
+// Colors
+
+// $dark_blue: hsl(209, 23%, 22%);
+// $v_dark_blue_b: hsl(207, 26%, 17%);
+// $v_dark_blue_l: hsl(200, 15%, 8%);
+// $dark_gray: hsl(0, 0%, 52%);
+// $v_light_gray: hsl(0, 0%, 98%);
+// $white-lb: hsl(0, 0%, 100%);
+
+// Box Style
+
+// $brd-rd: 5px;
+// $bx-shdw: 0 0 6px rgba(0, 0, 0, 0.1);

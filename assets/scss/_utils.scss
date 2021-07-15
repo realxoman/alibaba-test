@@ -1,0 +1,23 @@
+// the classes that good we have it
+
+
+.d-flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.d-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex.justify-between {
+    justify-content: space-between;
+}
+
+.ml-auto {
+    margin-left: auto;
+}

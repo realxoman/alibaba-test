@@ -11,7 +11,12 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
     "core-js": "^3.15.1",
+    "normalize.css": "^8.0.1",
     "nuxt": "^2.15.7"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "fibers": "^5.0.0",
+    "sass": "^1.35.2",
+    "sass-loader": "^10.2.0"
+  }
 }
