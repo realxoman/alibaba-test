@@ -42,20 +42,25 @@
             width: 25%;
         }
     }
+    .searchForm {
+        margin-bottom: 2rem;
+        justify-content: space-between;
+        flex-direction: row!important;
+    }
 }
+
+
 
 
 .searchForm {
-    margin-bottom: 3rem;
-    justify-content: space-between;
+    margin-bottom: 2rem;
+    flex-direction: column;
 }
-
-
 .searchInput {
     width: 480px;
     max-width: 100%;
     position: relative;
-
+    margin-bottom: 1rem;
     .icon {
         font-size: 1rem;
         position: absolute;
@@ -84,7 +89,7 @@
     background-color: var(--elements-bg);
     padding: 1rem 1rem ;
     color: var(--text-color);
-
+    margin-bottom: 1rem;
     option::selection{
         background-color: var(--elements-bg);
         padding: 1rem 1rem 1rem 4rem;
