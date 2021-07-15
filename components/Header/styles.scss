@@ -7,3 +7,11 @@
         font-weight: 800;
     }
 }
+
+@media screen and (min-width: 768px){
+    .header{
+        .mylogo{
+            font-size:1.3rem;
+        }
+    }
+}

@@ -1,5 +1,5 @@
 <template>
-    <button :class="[$style.themeSwitcher, 'ml-auto']" @click="toggleColor">
+    <button :class="[$style.SwitchMode, 'ml-auto']" @click="toggleColor">
         <font-awesome-icon :icon="toggleIcon" />
         <span>{{darkMode}} Mode</span>
     </button>
@@ -18,7 +18,7 @@ export default {
 
   methods: {
     toggleColor() {
-      this.$store.commit('mytheme/toggle')
+      this.$store.commit('mytheme/togglemode')
     },
   },
 

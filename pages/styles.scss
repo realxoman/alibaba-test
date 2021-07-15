@@ -1,0 +1,50 @@
+.row {
+    width: 100%;
+    margin: 0;
+    .cardWrapper {
+        width: 100%;
+        padding: 0;
+        transition: 0.3s ease-in-out;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 992px){
+    .row {
+        width: calc(100% + 3rem);
+        margin-left: -1.5rem;
+        margin-right: -1.5rem;
+        .cardWrapper {
+            padding: 0 1.5rem;
+            width: 50%;
+            transition: 0.3s ease-in-out;
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .row {
+        width: calc(100% + 3rem);
+        margin-left: -1.5rem;
+        margin-right: -1.5rem;
+    
+        .cardWrapper {
+            transition: 0.3s ease-in-out;
+            padding: 0 1.5rem;
+            width: 33%;
+        }
+    }
+}
+@media screen and (min-width: 1200px){
+    .row {
+        width: calc(100% + 3rem);
+        margin-left: -1.5rem;
+        margin-right: -1.5rem;
+        
+        .cardWrapper {
+            transition: 0.3s ease-in-out;
+            padding: 0 1.5rem;
+            width: 25%;
+        }
+    }
+}
