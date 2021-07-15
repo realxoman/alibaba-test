@@ -15,7 +15,7 @@ I think I Solve these bonuses challenge:
 
 5 - Add lazy loading for country images and list
 
-
+## It's fully responsive also tablet mode
 
 ## Note
 
