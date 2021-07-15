@@ -26,7 +26,6 @@
 
 // Light
 body.light {
-    transition: all 0.2s ease-in;
     --text-color: var(--v_dark_blue_b);
     --body-color: var(--v_light_gray);
     --elements-bg: var(--white-lb);
@@ -34,7 +33,6 @@ body.light {
 
 // Dark
 body.dark {
-    transition: all 0.2s ease-in;
     --text-color: var(--white-lb);
     --body-color: var(--v_dark_blue_b);
     --elements-bg: var(--dark-blue);
