@@ -52,9 +52,17 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    
+    '@nuxtjs/gtm',
   ],
-
+  gtm: {
+    id: 'GTM-NFR4NZB',
+    enabled: true,
+  },publicRuntimeConfig: {
+    gtm: {
+      id: process.env.GOOGLE_TAG_MANAGER_ID,
+      enabled: true
+    }
+  },
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 
