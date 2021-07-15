@@ -72,6 +72,11 @@
 
 <script>
   export default {
+head(){
+      return {
+      title: this.formatedname + " Country Details"
+      }
+    },
     async asyncData({
       $axios,
       params
@@ -87,7 +92,9 @@
       formatedPopulation() {
         return this.country.population
           .toLocaleString()
-      },
+      },formatedname(){
+        return this.country.name
+      }
     },
   }
 
