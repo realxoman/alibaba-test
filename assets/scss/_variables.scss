@@ -20,6 +20,19 @@
     --bx-shdw: 0 0 6px rgba(0, 0, 0, 0.1);
 }
 
+// Light
+body.light {
+    --text-color: var(--v_dark_blue_b);
+    --body-color: var(--v_light_gray);
+    --elements-bg: var(--white-lb);
+}
+
+// Dark
+body.dark {
+    --text-color: var(--white-lb);
+    --body-color: var(--v_dark_blue_b);
+    --elements-bg: var(--dark-blue);
+}
 
 
 
