@@ -28,19 +28,15 @@
 
 <script>
 export default {
-  props: {
-    country: {
-      type: Object,
-      required: true,
-    },
-  },
+    props: ["country"],
   computed: {
     formatedPopulation() {
       return this.country.population
-        .toString()
-        .replace(/\B(?=(\d{3})+(?!\d))/g, ',')
+        .toLocaleString()
     },
-  },
+  },  data() {
+    return {};
+  }
 }
 </script>
 

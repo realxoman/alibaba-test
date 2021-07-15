@@ -11,7 +11,6 @@
 
 @media (min-width: 768px) and (max-width: 992px){
     .row {
-        width: calc(100% + 3rem);
         margin-left: -1.5rem;
         margin-right: -1.5rem;
         .cardWrapper {
@@ -24,7 +23,6 @@
 
 @media (min-width: 992px) and (max-width: 1200px){
     .row {
-        width: calc(100% + 3rem);
         margin-left: -1.5rem;
         margin-right: -1.5rem;
     
@@ -37,9 +35,6 @@
 }
 @media screen and (min-width: 1200px){
     .row {
-        width: calc(100% + 3rem);
-        margin-left: -1.5rem;
-        margin-right: -1.5rem;
         
         .cardWrapper {
             transition: 0.3s ease-in-out;
@@ -48,3 +43,35 @@
         }
     }
 }
+
+
+.searchForm {
+    margin-bottom: 3rem;
+    justify-content: space-between;
+}
+
+
+.searchInput {
+    width: 480px;
+    max-width: 100%;
+    position: relative;
+
+    .icon {
+        font-size: 1rem;
+        position: absolute;
+        left: 1rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    input {
+        padding: 1rem 1rem 1rem 4rem;
+        width: 100%;
+        border-radius: var(--radius);
+        border: none;
+        box-shadow: var(--shadow);
+        background-color: var(--elements-bg);
+        color: var(--text-color);
+    }
+}
+

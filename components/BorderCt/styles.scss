@@ -1,0 +1,14 @@
+.button {
+    border-radius: var(--brd-rd);
+    box-shadow: var(--bx-shdw);
+    background-color: var(--elements-bg);
+    padding: 1rem 2rem;
+
+    &.small {
+        padding: 0.5rem;
+        margin-right: 0.25rem;
+        margin-bottom: 0.25rem;
+        text-align: center;
+    }
+
+}
