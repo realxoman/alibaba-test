@@ -85,7 +85,7 @@
           this.search = "";
         },
         filterByName(e) {
-          const val = e.target.value;
+          const val = e.target.value.toLowerCase();
           const filteredName = this.countries.filter(c => {
             return c.name.toLowerCase().includes(val);
           });
