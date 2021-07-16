@@ -15,6 +15,8 @@ I think I Solve these bonuses challenge:
 
 5 - Add lazy loading for country images and list
 
+6 - Make sure styles are loaded whenever they're really needed. e.g., The styles for the details page don't load on the homepage
+
 ## It's fully responsive also tablet mode
 
 ## Note
